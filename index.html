@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tawil tool video</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes rgb-glow {
+        0% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; }
+        25% { border-color: #00ffff; box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff; }
+        50% { border-color: #ffff00; box-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00; }
+        75% { border-color: #00ff00; box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; }
+        100% { border-color: #ff00ff; box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff; }
+      }
+      .rgb-glow {
+        animation: rgb-glow 4s linear infinite;
+      }
+      .rgb-glow-button:hover {
+        animation: rgb-glow 4s linear infinite;
+      }
+       /* Custom scrollbar for webkit browsers */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1a1a2e;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a4a8a;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6a6ad2;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
+   

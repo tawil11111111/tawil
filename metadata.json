@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Video Batch Submitter",
+  "description": "A powerful batch video submission system that connects to Google Gemini AI to generate videos from prompts. Manage a queue of jobs with custom parameters, parallel processing, and rate limiting.",
+  "requestFramePermissions": []
+}
